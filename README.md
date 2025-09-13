@@ -3,18 +3,15 @@
 This project demonstrates **network segmentation using VLANs** in a company network.  
 It was built using **Cisco Packet Tracer** as a learning project for networking fundamentals.
 
----
-
-## Project Overview
+# Project Overview
 The company network is divided into multiple departments using **VLANs** to improve security and manageability.
 
-#Departments Covered:
+# Departments Covered:
 - HR Department (VLAN 4)
 - Accounts Department (VLAN 1)
 - IT Department (VLAN 2)
 - Sales Department (VLAN 3)
 - Management Department(VLAN 5)
-
 Each department is assigned a unique VLAN, and devices in the same VLAN can communicate with each other.
 
 # Tools & Technologies Used
@@ -29,7 +26,7 @@ Each department is assigned a unique VLAN, and devices in the same VLAN can comm
 3. Configured IP addresses for each PC in the same subnet.
 4. Verified connectivity using ping..
 
- Sample Commands
+ >- Sample Commands
 
 like:-
 Switch> enable
