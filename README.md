@@ -9,10 +9,11 @@ It was built using **Cisco Packet Tracer** as a learning project for networking 
 The company network is divided into multiple departments using **VLANs** to improve security and manageability.
 
 #Departments Covered:
-- HR Department (VLAN 10)
-- Accounts Department (VLAN 20)
-- IT Department (VLAN 30)
-- Sales Department (VLAN 40)
+- HR Department (VLAN 4)
+- Accounts Department (VLAN 1)
+- IT Department (VLAN 2)
+- Sales Department (VLAN 3)
+- Management Department(VLAN 5)
 
 Each department is assigned a unique VLAN, and devices in the same VLAN can communicate with each other.
 
@@ -33,7 +34,7 @@ Each department is assigned a unique VLAN, and devices in the same VLAN can comm
 like:-
 Switch> enable
 Switch# configure terminal
-Switch(config)# vlan 10
+Switch(config)# vlan 5
 Switch(config-vlan)# name HR
 Switch(config-vlan)# exit
 Switch(config)# interface fastEthernet 0/1
