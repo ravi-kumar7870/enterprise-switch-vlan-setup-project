@@ -1,5 +1,4 @@
-# Office Network VLAN Project
-
+# Office Network VLAN Project 
 This project demonstrates **network segmentation using VLANs** in a company network.  
 It was built using **Cisco Packet Tracer** as a learning project for networking fundamentals.
 
